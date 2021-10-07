@@ -1,0 +1,600 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Navigation</class>
+ <widget class="QMainWindow" name="Navigation">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>802</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Navigation</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>true</bool>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>10</y>
+      <width>615</width>
+      <height>830</height>
+     </rect>
+    </property>
+    <property name="frameShape">
+     <enum>QFrame::NoFrame</enum>
+    </property>
+    <property name="frameShadow">
+     <enum>QFrame::Sunken</enum>
+    </property>
+    <property name="text">
+     <string/>
+    </property>
+    <property name="pixmap">
+     <pixmap resource="maps.qrc">:/background/866-8664209_leer-deutschland-karte.png</pixmap>
+    </property>
+    <property name="scaledContents">
+     <bool>true</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Bremen">
+    <property name="geometry">
+     <rect>
+      <x>210</x>
+      <y>220</y>
+      <width>71</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Bremen</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="h_da">
+    <property name="geometry">
+     <rect>
+      <x>190</x>
+      <y>570</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>H_da</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Berlin">
+    <property name="geometry">
+     <rect>
+      <x>510</x>
+      <y>280</y>
+      <width>61</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Berlin</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Munchen">
+    <property name="geometry">
+     <rect>
+      <x>390</x>
+      <y>740</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>München</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Stuttgart">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>680</y>
+      <width>81</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Stuttgart</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Dresden">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>440</y>
+      <width>71</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dresden</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Nurnberg">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>620</y>
+      <width>91</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Nürnberg</string>
+    </property>
+    <property name="checkable">
+     <bool>true</bool>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Saarbrucken">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>620</y>
+      <width>106</width>
+      <height>23</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Saarbrücken</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Entfernung">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>260</y>
+      <width>101</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Entfernung</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Information">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>300</y>
+      <width>101</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Information</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="AlleOrte">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>340</y>
+      <width>101</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Alle Orte</string>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Kiel">
+    <property name="geometry">
+     <rect>
+      <x>270</x>
+      <y>110</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kiel</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Schwerin">
+    <property name="geometry">
+     <rect>
+      <x>400</x>
+      <y>150</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Schwerin</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Hamburg">
+    <property name="geometry">
+     <rect>
+      <x>280</x>
+      <y>170</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hamburg</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Hannover">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>260</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Hannover</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Magdeburg">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>300</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Magdeburg</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Cottbus">
+    <property name="geometry">
+     <rect>
+      <x>540</x>
+      <y>360</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Cottbus</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Potsdam">
+    <property name="geometry">
+     <rect>
+      <x>480</x>
+      <y>320</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Potsdam</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Erfurt">
+    <property name="geometry">
+     <rect>
+      <x>340</x>
+      <y>450</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Erfurt</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Chemnitz">
+    <property name="geometry">
+     <rect>
+      <x>460</x>
+      <y>480</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Chemnitz</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Kassel">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>420</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Kassel</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Dusseldorf">
+    <property name="geometry">
+     <rect>
+      <x>80</x>
+      <y>420</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Dusseldorf</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Koblenz">
+    <property name="geometry">
+     <rect>
+      <x>90</x>
+      <y>500</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Koblenz</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Wiesbaden">
+    <property name="geometry">
+     <rect>
+      <x>170</x>
+      <y>540</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Wiesbaden</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Mainz">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>570</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mainz</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Wurzburg">
+    <property name="geometry">
+     <rect>
+      <x>310</x>
+      <y>560</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Wurzburg</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Augsburg">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>730</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Augsburg</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Ulm">
+    <property name="geometry">
+     <rect>
+      <x>260</x>
+      <y>710</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ulm</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Freiburg">
+    <property name="geometry">
+     <rect>
+      <x>140</x>
+      <y>760</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Freiburg</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QRadioButton" name="Konstanz">
+    <property name="geometry">
+     <rect>
+      <x>230</x>
+      <y>770</y>
+      <width>97</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Konstanz</string>
+    </property>
+    <property name="autoExclusive">
+     <bool>false</bool>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Loeschen">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>180</y>
+      <width>101</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ort loeschen</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Hinzufugen">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>220</y>
+      <width>101</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Ort hinzufugen</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Routing">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>380</y>
+      <width>101</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Routing</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Laden">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>420</y>
+      <width>101</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Laden</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="Speichern">
+    <property name="geometry">
+     <rect>
+      <x>660</x>
+      <y>460</y>
+      <width>101</width>
+      <height>25</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Speichern</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>802</width>
+     <height>25</height>
+    </rect>
+   </property>
+  </widget>
+ </widget>
+ <resources>
+  <include location="maps.qrc"/>
+ </resources>
+ <connections/>
+</ui>
